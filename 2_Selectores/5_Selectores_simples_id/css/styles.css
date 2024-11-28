@@ -1,0 +1,68 @@
+/*
+    Selectores simples de etiqueta
+    Son la misma etiqueta HTML
+*/
+
+body{
+    background: yellow;
+    margin: 0;
+}
+h1{
+    color: blue;
+}
+
+/* ESTO ES SON MALA PRACTICA :  */
+p{
+    font-size: 25px; 
+}
+
+/* Selectores de clase se pueden reutilizar*/
+
+
+
+/* Minilibreria de CSS*/
+.color-red{
+     color: red;
+}
+.color-blue{
+    color: blue;
+}
+.color-green{
+    color: green ;
+}
+.color-yellow{
+    color: yellow;
+}
+.bg-green{
+    background: green;
+}
+.bg-yellow{
+    background: yellow;
+}
+.bg-black{
+    background: black;
+}
+
+.text-center{
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    padding: .75em 1.5em;
+    background: dodgerblue;
+    color: #fff;
+    border-radius: .5em ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Selector de id
+        Usan el atributo id de HTML 
+        se escribe con #id   
+
+    Esto es MALA PRACTICA no los uses
+*/
+
+#title{
+    color: yellow;
+}

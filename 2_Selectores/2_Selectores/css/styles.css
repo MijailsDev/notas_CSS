@@ -1,0 +1,20 @@
+/*
+    SELECTORES
+        Seleccionan a que elementos o elemetos
+        del HTML se le van a aplicar estilos
+    
+        1. Selectores simples (una palabra)
+        2. Selectores compuestos (mas de una palabra)
+        3. Selectores con operadores (+ > *)
+        4. Selectores de atributos
+        ---------
+        5. Pseudoclases y pseudoelementos
+*/
+
+/* recomendacion: usar minusculas para los selectores */
+.title{
+    color: orange;
+}
+.Title{     /*En este caso no funciona porque esta en mayuscula*/
+    color: blueviolet;
+}

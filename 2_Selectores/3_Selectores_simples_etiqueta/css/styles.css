@@ -1,0 +1,18 @@
+/*
+    Selectores simples de etiqueta
+    Son la misma etiqueta HTML
+*/
+
+body{
+    background: yellow;
+    margin: 0;
+}
+h1{
+    color: blue;
+}
+
+/* ESTO ES SON MALA PRACTICA :  */
+p{
+    font-size: 25px;
+}
+
