@@ -1,0 +1,68 @@
+/* Los selectores de atributos se usan para seleccionar
+    un elemento en funcion de un atributo cualquiera 
+    
+    [atributo="valor"]{
+        tu css de siempre
+    }
+    
+    */
+
+[class="title"] {
+    color: red;
+}
+
+[type=text],
+[type=password] {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+[type=submit]{
+    display: inline-block;
+    padding: .75em 1.5em;
+    background: dodgerblue;
+    color: #fff;
+    border-radius: .5em ;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+/* Tambien puedo usar comodines para encontrar un 
+atributo sin especificarlo por completo */
+
+
+
+/* 
+Comienza con (^)
+*/
+[type^=te]{
+    border-radius: 5px;
+}
+
+[href^="http://"]{
+    border-bottom: 1px dashed red; /* subrayado rojo punteado */
+}
+
+
+/* 
+Termina con ($)
+*/
+[href$=jpg]{
+    color: green;
+}
+
+[href$=pdf]{
+    color: blue;
+}
+
+
+/* 
+Contiene (*)
+*/
+a {
+    background: pink;
+}
+[href*="ed.team"]{
+    background: rgb(250, 250, 185);
+}
