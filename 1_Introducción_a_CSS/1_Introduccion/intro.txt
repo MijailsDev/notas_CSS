@@ -1,0 +1,12 @@
+Que es CSS:
+	Es diseñar con codigo
+	Es un lenguaje para diseañar con codigo
+	
+		C : Cascade
+		S : Style
+		S : Sheets
+
+
+
+CodePen.io
+	Nos permite hacer html, css online 

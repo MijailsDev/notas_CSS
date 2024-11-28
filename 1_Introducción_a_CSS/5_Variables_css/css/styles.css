@@ -1,0 +1,21 @@
+/* VARIABLES CSS 
+        Son valores reutilizables
+*/
+
+
+:root{      /* Es la parte mas alta del DOM*/
+    --color: yellow;
+    --size: 8px;
+}
+
+h1{
+    font-size: var(--size);
+}
+h1{
+    font-size: calc(var(--size)*6); /* multiplica a la variable por 6 */
+}
+body{ 
+    background: var(--color);
+}
+
+

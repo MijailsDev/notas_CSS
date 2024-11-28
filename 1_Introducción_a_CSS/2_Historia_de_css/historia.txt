@@ -1,0 +1,24 @@
+HISTORIA DE CSS
+
+La Web nacio en 1991 con HTML
+CSS nace en 1996, IE3Ñ Internent Explorer
+
+    1ra version: 1996                   |
+            version: recomendacion      | - monolitos
+    2da recomendacion: 1998             |
+    
+    3ra recomendacion: 2011             | - modulitos
+                                                - modulos: border 
+                                                - modulos: sombras
+                                                - modulos: animaciones
+
+Modulos CSS (especificaion = documentacion)
+    Etapa1: Borrador
+
+    Etapa2: Borrador de la recomendacion
+
+    Etapa3: Recomendacion
+
+        Adicional: Implementacion
+
+No existe  CSS_4
