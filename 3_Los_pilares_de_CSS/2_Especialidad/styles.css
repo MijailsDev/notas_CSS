@@ -1,0 +1,73 @@
+/* 
+Los Pilares de CSS
+
+    Como funcionan ??
+
+    1. La cascada
+    2. La especificidad
+    3. La herencia
+
+    Gracias a estos tres conceptos entenderasa
+    lo siguiente: 
+
+        1. Como se aplican los estilos CSS?
+        2. Como se resuelven los conflicos?
+        4. Arquitectura CSS
+
+*/
+
+
+/* 
+1. La especificidad
+
+    Gana el que es mas especifico
+*/
+
+h1{
+    color: red;
+    /* especificidad: 1 */
+}
+
+.title{
+    color: green;
+    /* especificidad: 10 */
+}
+
+#title{
+    color: blue;
+    /* especificidad: 100 */
+}
+
+h1.title{
+    color: yellow;
+    /* especificidad: 11*/
+}
+
+h1#title{
+    color: pink;
+    /* especificidad: 101*/
+}
+
+h1.title#title{
+    color: purple;
+    /* especificidad: 111 */
+}
+
+body h1.title#title{
+    color: orange;
+    /* especificidad: 112  */
+}
+
+/* 
+Como se calcula la especificidad?
+
+    Etiquetas y pseudoelementos: 1
+    Atributos y pseudoclases: 10
+    Id: 100
+    Estilos en linea: 1000
+
+*/
+
+
+
+

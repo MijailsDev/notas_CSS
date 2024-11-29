@@ -1,0 +1,35 @@
+/* Layers CSS
+
+*/
+
+
+@layer base;
+@layer theme;
+@layer color;
+
+
+@layer base{
+    h1{
+        color: blue;
+    }
+}
+
+@layer theme {
+    h1{
+        color: red;
+    }
+    @layer light{
+
+    }
+    @layer dark{
+
+    }
+}
+
+@layer theme.light {
+
+}
+
+@layer theme.dark {
+
+}

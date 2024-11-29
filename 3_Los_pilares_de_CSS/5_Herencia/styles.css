@@ -1,0 +1,122 @@
+/* 
+Los Pilares de CSS
+
+    Como funcionan ??
+
+    1. La cascada
+    2. La especificidad
+    3. La herencia
+
+    Gracias a estos tres conceptos entenderasa
+    lo siguiente: 
+
+        1. Como se aplican los estilos CSS?
+        2. Como se resuelven los conflicos?
+        4. Arquitectura CSS
+
+*/
+
+
+/* 
+1. La especificidad
+
+    Gana el que es mas especifico
+*/
+
+h1{
+    color: red;
+    /* especificidad: 1 */
+}
+
+.title{
+    color: green;
+    /* especificidad: 10 */
+}
+
+#title{
+    color: blue;
+    /* especificidad: 100 */
+}
+
+h1.title{
+    color: yellow;
+    /* especificidad: 11*/
+}
+
+h1#title{
+    color: pink;
+    /* especificidad: 101*/
+}
+
+h1.title#title{
+    color: purple;
+    /* especificidad: 111 */
+}
+
+body h1.title#title{
+    color: orange;
+    /* especificidad: 112  */
+}
+
+/* 
+Como se calcula la especificidad?
+
+    Etiquetas y pseudoelementos: 1
+    Atributos y pseudoclases: 10
+    Id: 100
+    Estilos en linea: 1000
+
+*/
+
+
+/* 
+    CASCADA
+        Significan que los estilos que vienen
+        despues sobreescriben a los que estaban
+        anes
+*/
+
+
+/* linea 10 style.css */
+.subtitle{
+    color: pink;
+}
+/* linea 800 theme.css */
+.subtitle{
+    color: skyblue;
+}
+
+
+/*      
+    HERENCIA
+        
+        Significa que un elemento hereda los estilos de su
+        padre o ancestro. Asi no tengo que escribir los 
+        estilos para todos los elementos.
+
+*/
+
+/* Hay razones logicas para que algunas cosas se hereden y otras no */
+.container1 {
+    color: red;
+    border: 1px solid;
+}
+
+.theme_light{
+    background: #eee;
+    color: #111;
+}
+
+a {
+    color: inherit;
+}
+
+.theme-dark{
+    background: #111;
+    color: #eee;
+}
+
+/* Anular la herencia */
+.container2{
+    color: initial;
+}

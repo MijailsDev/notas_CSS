@@ -1,0 +1,20 @@
+/* 
+Los Pilares de CSS
+
+    Como funcionan ??
+
+    1. La cascada
+    2. La especificidad
+    3. La herencia
+
+    Gracias a estos tres conceptos entenderasa
+    lo siguiente: 
+
+        1. Como se aplican los estilos CSS?
+        2. Como se resuelven los conflicos?
+        4. Arquitectura CSS
+
+*/
+body{
+    background: yellow;
+}
