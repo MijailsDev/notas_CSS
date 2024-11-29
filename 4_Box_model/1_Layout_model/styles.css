@@ -1,0 +1,21 @@
+/* 
+    El layaout model
+
+    El algoritmo del navegador para entender la geometria
+    de cada elemento HTML luego de procesar el CSS:
+    el tamaño, la posicion, la separacion con otros elementos
+
+    * Box model
+    * Posicion
+    * Flexbox
+    * CSS grid
+
+    Usamos mucho el layout model para RWD (Responsive-Web-Desing)
+
+    Todos los elementos HTML son rectangulos
+
+    Estos rectangulos son de 2 tipos:
+        1. De Bloque
+        2. De Linea (se comportan como texto)
+
+*/  
