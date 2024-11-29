@@ -1,0 +1,48 @@
+/* BOX SIZING  */
+
+*{                  /* Buena practica */
+    box-sizing: border-box;
+}
+
+.div-center{
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+    box-sizing: border-box ;    /* la caja ahora se debe medir exactamente tal cual */
+}
+
+.div-center{
+    width: 120px;
+    height: 120px;
+    background: yellow;
+    display: inline-block;
+}
+
+/* Propiedades LOGICAS 
+
+        Propiedades fisicas
+            margin: top right botton left
+            padding: top right botton left
+    
+        Propiedades logicas
+            margin-block-start
+            margin-block-end
+            margin-inline-start
+            margin-inline-end
+
+            padding-block-end
+            padding-inline-start
+            padding-block-start
+            padding-inline-end
+
+
+
+*/
+
+.content {
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-inline-end: 50px;
+}

@@ -1,0 +1,20 @@
+/* BOX SIZING  */
+
+*{                  /* Buena practica */
+    box-sizing: border-box;
+}
+
+.div-center{
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+    box-sizing: border-box ;    /* la caja ahora se debe medir exactamente tal cual */
+}
+
+.div-center{
+    width: 120px;
+    height: 120px;
+    background: yellow;
+    display: inline-block;
+}
+

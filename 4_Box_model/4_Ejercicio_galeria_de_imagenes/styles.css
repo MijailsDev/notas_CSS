@@ -1,0 +1,74 @@
+/* 
+    El layaout model
+
+    El algoritmo del navegador para entender la geometria
+    de cada elemento HTML luego de procesar el CSS:
+    el tamaño, la posicion, la separacion con otros elementos
+
+    * Box model
+    * Posicion
+    * Flexbox
+    * CSS grid
+
+    Usamos mucho el layout model para RWD (Responsive-Web-Desing)
+
+    Todos los elementos HTML son rectangulos
+
+    Estos rectangulos son de 2 tipos:
+        1. De Bloque
+        2. De Linea (se comportan como texto)
+
+*/  
+h1{
+    background: red;
+    width: 200px;
+    height: 100px;
+}
+
+p{
+    background: yellow;
+    height: 100px;
+}
+
+span{
+    background: green;
+    height: 50px;           /* Aqui no pasa nada porque es un elemento de linea */
+}
+
+
+/* 
+    PROPIEDAD : DISPLAY
+
+    div {
+        display: inline | block | inline-block | flex | grid | none;
+    
+    }
+
+*/
+
+h1{
+    display: inline;
+    /* display: none; */
+    
+}
+
+p{
+    display: inline;
+}
+span{
+    display: block;
+}
+
+span{
+    display: inline-block;
+}
+
+
+/* Las IMAGENES son inline-block */
+
+.gallery{
+    text-align: center; /* se centra el div gallery */
+}
+img{
+    width: 200px;
+}
