@@ -1,0 +1,29 @@
+body{
+    /* background: red; */
+}
+.box{
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+    /* background-color: yellow; */
+    /* background-image: url(capi.webp); */
+    /* repeat | no-repeat | repeat-y | repeat-x*/
+    /* background-repeat: repeat-y;
+    background-size: 100px; */
+
+    background: url(capi.webp) no-repeat;
+
+}
+
+
+
+/* 
+    Background-size 
+*/
+.box{
+    /* auto | width [height|auto] | contain | cover  */
+    background-size: auto; /* La imagen usa sus dimensiones naturales */
+    background-size: 100%; /* Se le aplica el ancho y el navegador calcula el alto */
+    background-size: contain; /* Agranda el fondo hasta rellenar lo mas posible el elemento, sin cortar ni deformar la imagen de fondo */
+    background-size: cover; /* Rellena toda la caja  a veces recortando la imagen */
+}
