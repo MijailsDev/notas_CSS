@@ -1,0 +1,14 @@
+body{
+    background: red;
+}
+h1{
+    height: 500px;
+    /* background-color: yellow; */
+    /* background-image: url(capi.webp); */
+    /* repeat | no-repeat | repeat-y | repeat-x*/
+    /* background-repeat: repeat-y;
+    background-size: 100px; */
+
+    background: url(capi.webp) no-repeat;
+
+}
