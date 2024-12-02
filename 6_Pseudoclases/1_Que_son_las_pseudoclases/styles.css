@@ -1,0 +1,19 @@
+/* h1:hover{
+    color: red;
+    cursor: pointer;
+} */
+
+/* 
+Las pseudoclases son selectores dinamicas o contextuales. 
+Esto siginfica que su comportamiento va a depender de las 
+circunstancias.
+
+La notacion es con dos puntos (:)
+
+*/
+
+/* cuando quieres hacer un hover a un hijo de H1 */
+h1 :hover{   /* El espacio vacio significa selector descendiente */
+    color: red;
+    cursor: pointer;
+}
