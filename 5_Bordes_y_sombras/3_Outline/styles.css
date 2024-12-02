@@ -1,0 +1,93 @@
+.box{
+    width: 0px;
+    
+    margin: 2em auto 0;
+    display: inline-block;
+    /* 
+    border: width style color;
+    */
+    /* border: 5px dashed red; */
+    /* 
+    border es un shorthand para
+    tres propiedades: 
+        border-width
+        border-style: solid | dashed | dotted | double
+        border-color
+    */
+
+    /* border-color: red green blue;
+    border-style: dashed solid dotted double;
+    border-width: 5px 10px 20px 12px; */
+
+    /* border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+    border-left-color: black;
+
+    border-top-style: solid;
+    border-right-style: dotted;   
+    border-bottom-style: dashed;
+    border-left-style: double;
+    
+    border-top-width: 5px;
+    border-right-width: 10px;
+    border-bottom-width: 12px;
+    border-left-width: 20px; */
+
+    /* border-top: 1px solid black;
+    border-right: 2px solid green;
+    border-bottom: 3px;
+    border-left: 4px; */
+
+    border: 5px solid black;
+    /* border-bottom-style: dashed; */
+    border-width: 30px;
+    border-color: red ;
+    border-top-color: transparent ;
+    border-right-color: transparent;  
+    border-bottom-color:transparent;
+    border-left-color: red; 
+}
+
+
+/* Border-Radius */
+
+.radious{
+    width: 200px;
+    height: 100px;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 10px  60px 90px;
+    /* 
+        Se pude definir el radio en x (horizontal)
+        e y (vertical) con slash(/)
+        border-radius: x / y;
+        border-radius: x x x x / y y y y
+    */
+
+    border-radius: 50px / 25px;
+
+    border-radius: 120px 120px 10px 10px /
+                    10px 10px 20px 20px;
+
+    /* border-radius: 20%; */
+    
+}  
+
+.circulo{
+    background: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+
+/* Outline */
+
+.radious{
+    outline: 2px solid red;
+}
+
+h1{
+    outline: 10px solid red;
+}
