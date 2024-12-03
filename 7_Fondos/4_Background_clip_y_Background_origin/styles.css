@@ -1,9 +1,12 @@
+*{
+    box-sizing: border-box;
+}
 body{
     /* background: red; */
 }
 .box{
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
     border: 1px solid black;
     /* background-color: yellow; */
     /* background-image: url(capi.webp); */
@@ -41,4 +44,21 @@ body{
     background-position: center;
     background-position: right 10px bottom 10px;
     background-position: right 10px top 10px;
+}
+
+/* 
+    Background-origin  y Background-clip
+    content-box
+    padding-box
+    border=box
+*/
+.box{
+    /* background: yellow; */
+    background-size: cover;
+    background-position: 0 0;
+    border: 10px dashed black;
+    padding: 30px;
+    background-clip: content-box;
+    /*background-clip: border-box;  valor predeterminado  */
+    background-origin: padding-box;
 }
