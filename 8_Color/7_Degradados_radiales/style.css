@@ -1,0 +1,143 @@
+/* 
+    Color
+
+        Color de frente: propiedad color
+        Color de fondo: propiedad background-color
+                        background-image
+
+
+*/
+
+body{
+    color: lightgreen;
+}
+
+h1{
+    /* border: 1px solid;
+    box-shadow: 1px 1px 2px 2px; */
+    background: yellow;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+
+/* 
+    Color Keyowords
+*/
+
+h1:hover{
+    border-color: currentColor;
+}
+
+
+/* 
+    Notacion RGB (aditiva)
+
+    Red 0 - 255
+    Green 0 - 255
+    Blue 0 - 255
+
+    Existe otra notacion: CMYK que es para
+    impresoras (sustractiva)
+
+*/
+span{
+    background: white;
+    color: transparent;
+    background: rgba(50, 200, 150,.1);
+    display: none;
+}
+
+
+
+/* 
+    Notacion hexadecimal
+
+        Valores de 0 a 15 (16 en total)
+
+        0 2 3 4 5 6 7 8 9 A B C D E F
+        0 2 3 4 5 6 7 8 9 A B C D E F
+*/
+
+h1{
+    background: #ff0000;
+    background: #ff55aa33;
+    background: #f5a3;
+
+
+}
+
+
+
+/* 
+    Notacion HSL
+    
+    Hue (tono, de 0 a 360)
+    Saturacionj (intensidad del color, 
+    de  0, gris a 100%, el color puro).
+
+    Light (luz, de 0%, negro, a 100% que es
+    blanco).
+*/
+
+body{
+    background: hsl(240,100%,90%);
+}
+
+
+
+/* 
+    Degradados 
+
+    background-image: linear-gradient(color1, color2, color3)
+    background-image: radial-gradient(color1, color2, color3)
+*/
+
+body{
+    color: #fff;
+    background: linear-gradient(cyan, rgb(69, 69, 255), magenta) no-repeat;
+    
+    background:linear-gradient(
+        hsl(180, 80%, 60%) 100px,
+        hsl(300, 90%, 70%) 200px
+    );
+
+    background:linear-gradient(
+        to bottom left,
+        hsl(180, 80%, 60%) 100px,
+        hsl(300, 90%, 70%) 100px,
+        hsl(300, 90%, 70%) 200px,
+        hsl(60, 100%, 50%) 200px
+    );
+
+    
+
+    min-height: 100vh;
+
+}
+
+
+
+/* 
+    Degradados radiales
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background:radial-gradient(
+        hsl(300, 90%, 70%) ,
+        hsl(60, 100%, 50%) 
+    );
+
+    background:radial-gradient(
+        at left bottom,
+        hsl(300, 90%, 70%) 100px,
+        hsl(60, 100%, 50%) 100px 
+    );
+
+    background:radial-gradient(
+        50% 50%,
+        hsl(300, 90%, 70%) 100px,
+        hsl(60, 100%, 50%) 100px 
+    );
+}
