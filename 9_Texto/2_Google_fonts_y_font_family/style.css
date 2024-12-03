@@ -1,0 +1,27 @@
+/* 
+    Conceptos basicos
+
+    1. Tipografia es la disciplina (y arte)
+       que se encarga de las letras, su diseño
+       y su legibilidad.
+
+    2. Fuente: Es un tipo de especifico de letra
+
+    3. Glifo: Cada caracter (simbolo) en una fuente
+
+    4. Estilos: Son las variaciones de una fuente
+
+    5. Familia tipografica: Son diferentes fuentes pero
+       de la misma familia, es decir que comparten rasgos
+       en comun (tambien el nombre)
+ 
+ */
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Lugrasimo", cursive;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+
+
