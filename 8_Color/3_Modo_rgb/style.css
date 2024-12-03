@@ -1,0 +1,51 @@
+/* 
+    Color
+
+        Color de frente: propiedad color
+        Color de fondo: propiedad background-color
+                        background-image
+
+
+*/
+
+body{
+    color: lightgreen;
+}
+
+h1{
+    /* border: 1px solid;
+    box-shadow: 1px 1px 2px 2px; */
+    background: yellow;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+
+/* 
+    Color Keyowords
+*/
+
+h1:hover{
+    border-color: currentColor;
+}
+
+
+/* 
+    Notacion RGB (aditiva)
+
+    Red 0 - 255
+    Green 0 - 255
+    Blue 0 - 255
+
+    Existe otra notacion: CMYK que es para
+    impresoras (sustractiva)
+
+*/
+span{
+    background: white;
+    color: transparent;
+    background: rgba(50, 200, 150,.1);
+    display: none;
+}
+
+
+
